@@ -1,0 +1,185 @@
+/*.container div {
+  border:#000 1px solid;
+}*/
+body {
+  background-color:#fff;
+  height:800px;
+}
+
+#container {
+  border:#fff 1px solid;
+  padding:10px;
+  width: 600px;
+  /*overflow:hidden;*/
+}
+
+#container-1 {
+  border:#fff 1px solid;
+  padding:10px;
+  text-align:left;
+  /*overflow:hidden;*/
+}
+
+#container-2 {
+  border:#fff 1px solid;
+  padding:10px;
+  text-align:left;
+  float:right;
+  /*overflow:hidden;*/
+}
+
+.title {
+  color:red;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.subtitle {
+  color:grey;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: smaller;
+  font-weight:lighter;
+  padding-left: 20px;
+}
+
+.main-nav {
+    text-align:left;
+    padding:0;
+
+}
+
+.main-nav li {
+    display:inline;
+    list-style:none;
+    border-right:#CCCCCC .5px solid;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+.main-nav li:last-child {
+    border-right:none;
+}
+
+.white-text {
+  color: white;
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: smaller;
+  background-color: black;
+  padding: 10px;
+}
+
+.date {
+  color:rgb(219, 219, 219);
+  font-family: tahoma;
+  text-align: left;
+  font-size: 1.25em;
+
+}
+
+.blog-title {
+  color: black;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-top: 0px;
+  padding-bottom: -20px;
+}
+
+.drop-cap {
+    color:rgb(219, 219, 219);
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: helvetica;
+    line-height: 80%;
+}
+
+.body-copy {
+  color:black;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: smaller;
+  text-align:left;
+  width: 600px;
+  height: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.fashion-photo {
+  float: left;
+  padding: 10px;
+  border: #fff 1px solid;
+  width: 600px;
+  height: 200px;
+}
+
+.action-click {
+  color:red;
+  float:right;
+  font-weight: normal;
+}
+
+.divider {
+    width:600px;
+    border-top:#CCCCCC 1px solid;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.red-text {
+  color:red;
+  text-align:left;
+  display:inline;
+  list-style: none;
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
+.side-bar {
+  width:200px;
+  height:200px;
+  text-align:right;
+
+}
+
+.side-bar-copy {
+  font-family: helvetica;
+  font-size: smaller;
+  color: rgb(219, 219, 219);
+}
+
+.side-bar-list li{
+  list-style: circle;
+  color:red;
+}
+
+.about-us {
+  font-size: smaller;
+  color:grey;
+  font-family: helvetica;
+}
+
+.footer {
+  color:grey;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 8pt;
+}
+
+/*
+.Fashion-Photo {
+  float:left;
+  margin:10px;
+  padding:3px;
+  border:#CCCCCC 1px solid;
+}*/
